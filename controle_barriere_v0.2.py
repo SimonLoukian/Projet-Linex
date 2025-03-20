@@ -45,14 +45,21 @@ try:
         
         
         if len(historique_valeur) > 1:
-                derniere_valeur = historique_valeur[-1]   # Valeur actuelle
-                valeur_precedente = historique_valeur[-2]  # Valeur précédente
-                valeur_en_compte = derniere_valeur - valeur_precedente
-                
-                if valeur_en_compte > 100:
+                derniere_valeur_msb = historique_valeur[-1]   # Valeur actuelle
+                valeur_precedente_msb = historique_valeur[-2]  # Valeur précédente
+                valeur_en_compte = derniere_valeur_msb - valeur_precedente_msb
+                derniere_valeur_lsb = historique_valeur_preci [-1] #valeur lsb actuelle
+                if derniere_valeur_msb < 3520 :
+                    tare = derniere_valeur_msb
                     
-                     v = derniere_valeur * 1.1207 - 3929,4
-                     print(v)
+                    coef = tare / 1.1207
+                    
+                    print (coef)
+                    
+                if valeur_en_compte > 100:
+                     
+                     masse = 1.1207 * (derniere_valeur_msb) - 3929.3 
+                     print(masse)
                      
                      
                      
