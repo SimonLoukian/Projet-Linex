@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------------------------------------------------------
+| accessctl_connection_rtu  | cette version a permi la première connection en modbus rtu                                      |
+-------------------------------------------------------------------------------------------------------------------------------
+| accessctl_connection_tcp  | cette version a permi de se connecter a la plateforme via l'edw100 en modbus tcp                |
+-------------------------------------------------------------------------------------------------------------------------------
+| accessctl_gui             | cette version a permi la création d'une gui pour que l'opérateur puisse controler la barrière   |
+-------------------------------------------------------------------------------------------------------------------------------
+| accessctl_evolution_gui   | cette version a permi de déplacer le morceau de code contenant de l'html dans un fichier yaml   |
+-------------------------------------------------------------------------------------------------------------------------------
+| accessctl_conf_edw100     | cette version a permi de déplacer la configuration de la passerelle edw100 dans un fichier yaml |
+-------------------------------------------------------------------------------------------------------------------------------
+| accessctl_masse           | cette version a permi le premier calcul de la masse du camion                                   |
+-------------------------------------------------------------------------------------------------------------------------------
+| accessctl_evolution_masse | cette version a permi de pouvoir déterminer la masse et de la convertir en kg                   |
+-------------------------------------------------------------------------------------------------------------------------------
